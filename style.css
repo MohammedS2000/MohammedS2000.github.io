@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: "Karla";
+    font-size: 100%;
+    font-weight: 600;
+}
+main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 100px 30px;
+}
+.container{
+    width: 80%;
+    padding: 30px;
+    margin-top: 345px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 14px 1px #00000024;
+}
+.community-header{
+    color: hsl(179, 62%, 43%);
+}
+.community p{
+    color: hsl(218, 22%, 67%);
+    margin-top: 15px;
+    margin-bottom: 70px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+.community h3{
+    color: hsl(71, 73%, 54%);
+    margin-top: 30px;
+}
+.flex-container{
+    margin: -30px;
+    color: white;
+}
+.flex-left{
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    line-height: 1.6;
+}
+.flex-right{
+    background-color: hsl(179, 62%, 45%);
+    padding: 30px;
+    line-height: 1.6;
+}
+.time{
+    position: absolute;
+    color: hsl(204, 43%, 85%);
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.dollar{
+    font-size: 34px;
+    font-weight: 700;
+}
+.btn{
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 100%;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 24px;
+}
+.btn:hover{
+    background-color: hsl(71, 73%, 48%);
+}
+.flex-right-header{
+    color: white;
+}
+.right-container{
+    color: hsl(204, 43%, 85%);
+    margin-top: 20px;
+    list-style: none;
+    line-height: 1.4;
+}
+
+@media screen and (max-width:768px) {
+    .footer{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) {
+    .container{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-container{
+        display: flex;
+    }
+    .flex-left{
+        width: 50%;
+    }
+    .flex-right{
+        width: 50%;
+    }
+}
